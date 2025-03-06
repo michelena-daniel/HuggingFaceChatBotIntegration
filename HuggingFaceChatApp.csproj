@@ -13,7 +13,12 @@
     <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="9.3.0-preview.1.25114.11" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0-preview.1.25080.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.0-preview.1.25080.5" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.0-preview.1.25080.5" />
     <PackageReference Include="OpenAI" Version="2.2.0-beta.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="src\Application\Models\" />
   </ItemGroup>
 
 </Project>
